@@ -1,0 +1,93 @@
+.tabla {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+text-align: right;
+width: 600px;
+}
+
+.tabla th {
+padding: 5px;
+font-size: 16px;
+background-color: #83aec0;
+background-image: url('images/fondo_th.png');
+background-repeat: repeat-x;
+color: #FFFFFF;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-right-style: solid;
+border-bottom-style: solid;
+border-right-color: #558FA6;
+border-bottom-color: #558FA6;
+font-family: "Trebuchet MS", Arial;
+text-transform: uppercase;
+}
+
+.tabla .modo1 {
+font-size: 12px;
+font-weight:bold;
+background-color: #e2ebef;
+background-image: url('images/fondo_tr01.png');
+background-repeat: repeat-x;
+color: #34484E;
+font-family: "Trebuchet MS", Arial;
+}
+
+.tabla .modo1 td {
+padding: 5px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-right-style: solid;
+border-bottom-style: solid;
+border-right-color: #A4C4D0;
+border-bottom-color: #A4C4D0;
+text-align:right;
+} 
+
+.cnt{
+      width:450px;
+      background-color:#DDAADD;
+      margin:0px;
+      padding:15px;
+      font-weight:bold
+    }
+    .trans{
+      background-color:#00BB00;
+      color:#CC0000;
+      position:absolute;
+      text-align:center;
+      top:50px;
+      left:40px;
+      padding:65px;
+      font-size:25px;
+      font-weight:bold;
+      width:300px;
+    }
+    
+.validation-message {
+    color: red;
+    //#f00;
+}
+
+.form-horizontal .control-label{
+/* text-align:right; */
+text-align:left !important;
+//background-color:#ffa;
+}
+
+select{
+	background: #eee url(arrow.png);
+	background-position: 280px center;
+    background-repeat: no-repeat;
+   	padding: 10px;
+   	font-size: 16px;
+   	border: 0;
+   	border-radius: 3px;
+   -webkit-appearance: none;
+   -webkit-transition: all 0.4s;
+   -moz-transition: all 0.4s;
+   transition: all 0.4s;
+   -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+/*select:hover{
+	background-color: #ddd;
+}*/
